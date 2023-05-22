@@ -26,7 +26,7 @@ export const DownContainer = styled.div`
     div {
         display: flex;
         flex-direction: column; 
-        height: fit-content;
+        height: auto;
         width: 33%;
         padding: 20px;
         background-color: #66493d;
