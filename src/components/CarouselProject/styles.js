@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    width: 100%;
+    height: 100%;
+    .rec.rec-carousel {
+       width: 100%;
+       
+    }
     .rec.rec-arrow {
         width: 100px;
         height: 100%;
@@ -30,16 +36,21 @@ export const Container = styled.div`
       `
 
 export const ContainerItems = styled.div`
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 50px;
     background-color: #66493d;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 `
 
 export const Image = styled.img`
-    height: 60%;
+    width: 60%;
 `
+
 export const Text = styled.p`
     font-size: 20px;
     width: 85%;

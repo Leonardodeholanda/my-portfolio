@@ -14,9 +14,7 @@ import { Image, Text, Container, ContainerItems } from './styles'
     return (
       <Container>
         <Carousel 
-      style={{ width: '100%'}}
       itemsToShow={1}
-      initialActiveIndex={0}
       enableMouseSwipe={false}
       >
         {renderProjects}

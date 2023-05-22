@@ -19,12 +19,13 @@ export const Container = styled.div`
 `
 export const DownContainer = styled.div`
     display: flex;
+    height: 100%;
     @media (max-width: 1250px) {
         flex-direction: column;
     }
     div {
         display: flex;
-        flex-direction: column;        
+        flex-direction: column; 
         height: fit-content;
         width: 33%;
         padding: 20px;
@@ -33,11 +34,6 @@ export const DownContainer = styled.div`
         margin: 20px;
         border-radius: 50px;
         color: #fff;
-        transition: width 1s;
-        &:hover {
-            width: 50%;
-        }
-        
         h2 {
             margin-bottom: 40px;
             background-color: #fff;

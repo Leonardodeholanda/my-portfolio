@@ -17,7 +17,7 @@ h1 {
   p {
     color: #fff;
     font-size: 18px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
   }
 `
 
