@@ -8,6 +8,7 @@ export const Container = styled.div`
     height: 100vh;
     padding: 20px;
     color: #eee;
+    margin: 0 auto;
     h1 {
         font-size: 60px;
         margin-bottom: 10px;

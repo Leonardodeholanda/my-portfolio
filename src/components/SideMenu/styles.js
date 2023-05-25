@@ -51,9 +51,6 @@ export const Container = styled.div`
     }
   }
   div {
-    height: 80vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
   }
 `

@@ -5,7 +5,6 @@ import Image4 from "../../assets/weather-forecast.png"
 import Image5 from "../../assets/users-app.png"
 
 const projectsList = [
-  {id:0},{id:6},{id:7},{id:8},
   {
     id: 1,
     image: Image1,

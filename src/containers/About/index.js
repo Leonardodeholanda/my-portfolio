@@ -1,13 +1,15 @@
 import React from 'react'
-import { Container, DownContainer } from './styles'
+import { Container, DownContainer, UpContainer } from './styles'
 
 export function About() {
   return (
     <Container>
-      <h1 className='about'>ABOUT</h1>
-      <h2 className='about'>I'm <b>Leonardo de Holanda,</b> Web Developer</h2>
-      <p className='about'>As a highly motivated developer, I am passionate about coding, learning, and creating. I am willing to staying up-to-date with the latest technologies and industry best practices, and i am always eager to expand my skillset to achieve mutual growth.</p>
-      <p className='about'>In addition to my technical abilities, I excel at working collaboratively with teams and communicating effectively with individuals from diverse backgrounds. I am committed to utilizing my skills and passion for coding to make meaningful contributions to any project or organization I work with.</p>
+      <UpContainer>
+      <h1>ABOUT</h1>
+      <h2>I'm <b>Leonardo de Holanda,</b> Web Developer</h2>
+      <p>As a highly motivated developer, I am passionate about coding, learning, and creating. I am willing to staying up-to-date with the latest technologies and industry best practices, and i am always eager to expand my skillset to achieve mutual growth.</p>
+      <p>In addition to my technical abilities, I excel at working collaboratively with teams and communicating effectively with individuals from diverse backgrounds. I am committed to utilizing my skills and passion for coding to make meaningful contributions to any project or organization I work with.</p>
+      </UpContainer>
       <DownContainer>
         <div>
           <h2>Formation</h2>

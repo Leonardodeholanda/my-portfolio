@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100%;
-    height: 100%;
-    .rec.rec-carousel {
-       width: 100%;
-       
+    width: 80vw;
+    .rec.rec-carousel-item {
+        width: 100%;
     }
     .rec.rec-arrow {
         width: 100px;
@@ -31,13 +29,12 @@ export const Container = styled.div`
                  0 0 10px #fff, 
                  0 0 20px #fff,   
                  0 0 55px #fff, 
-                 0 0 70px #fff;  
+                 0 0 70px #fff; 
+                 margin-top: 10px;
       }
       `
 
 export const ContainerItems = styled.div`
-    height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

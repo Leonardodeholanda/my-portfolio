@@ -3,30 +3,35 @@ import styled from 'styled-components'
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
+`
+export const UpContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     h1 { 
-        font-size: 60px;
-        text-align: center;
-    }
-    .about {
         color: #fff;
-        margin-bottom: 10px;
-        width: 70%;
-        text-align: center;
+        font-size: 60px;
     }
     h2 {
-        text-align: center;    
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    p {
+        color: #fff;
+        font-size: 18px;
+        width: 70%;
     }
 `
 export const DownContainer = styled.div`
     display: flex;
-    height: 100%;
     @media (max-width: 1250px) {
         flex-direction: column;
     }
     div {
         display: flex;
         flex-direction: column; 
-        height: auto;
+        align-items: center;
         width: 33%;
         padding: 20px;
         background-color: #66493d;
@@ -35,11 +40,16 @@ export const DownContainer = styled.div`
         border-radius: 50px;
         color: #fff;
         h2 {
-            margin-bottom: 40px;
             background-color: #fff;
             padding: 10px 20px;
             border-radius: 30px;
             color: #190207;
+            width: max-content;
+            margin: 0 auto 40px;
+        }
+        p {
+            width: 90%;
+            text-align: center;
         }
         @media (max-width: 1250px) {
             width: 90%;
